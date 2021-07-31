@@ -1,0 +1,275 @@
+    1  which python3
+    2  python --version
+    3  venv
+    4  python3 -m venv venv
+    5  apt-get install python3-venv
+    6  sudo apt-get install python3-venv
+    7  sudo apt-get upgrade
+    8  sudo apt-get update
+    9  python3 -m venv venv
+   10  sudo python3 -m venv venv
+   11  sudo apt-get install python3-venv
+   12  sudo python3 -m venv venv
+   13  source venv/bin/activate
+   14  which python
+   15  pip install --upgrade pip
+   16  sudo pip install --upgrade pip
+   17  sudo apt install pip
+   18  sudo pip install --upgrade pip
+   19  pip install pylint
+   20  pip install black
+   21  pip install pytest
+   22  sudo apt install git
+   23  git clone https://github.com/tarungirdhar1980/DevOps_Microservices.git
+   24  ls -ltr
+   25  cd DevOps_Microservices
+   26  ls -ltr
+   27  cd ..
+   28  pwd
+   29  git clone https://github.com/tarungirdhar1980/repo.git
+   30  git clone https://github.com/tarungirdhar1980/myrepo.git
+   31  ls -ltr
+   32  cd myrepo
+   33  ls -ltr
+   34  view Makefile
+   35  make install
+   36  clear
+   37  sudo make install
+   38  make lint
+   39  sudo make lint
+   40  ls -ltr
+   41  mv Makefile Makkefile_old
+   42  vi Makefile
+   43  make all
+   44  clear
+   45  sudo apt install docker
+   46  ls -ltr
+   47  ps -eaf |grep docker
+   48  sudo systemctl start docker
+   49  pwd
+   50  cd ..
+   51  ls -ltr
+   52  exit
+   53  pwd
+   54  ls -ltr
+   55  cd myrepo
+   56  ls -ltr
+   57  vi Makefile
+   58  make install
+   59  make all
+   60  curl -fLSs https://circle.ci/cli | bash
+   61  sudo curl -fLSs https://circle.ci/cli | bash
+   62  history |grep venv
+   63  source venv/bin/activate
+   64  cd ..
+   65  source venv/bin/activate
+   66  pwd
+   67  ls -ltr
+   68  cd myrepo
+   69  ls -ltr
+   70  cat reuirements.txt
+   71  pwd
+   72  view requirements.txt
+   73  sudo curl -fLSs https://circle.ci/cli | bash
+   74  sudo apt install hadolint
+   75  stack
+   76  sudo apt install haskell-stack
+   77  pwd
+   78  cd ..
+   79  git clone https://github.com/hadolint/hadolint
+   80  cd hadlint
+   81  cd hadolint
+   82  stack install
+   83  hadlint
+   84  hadolint
+   85  ls -ltr
+   86  view stack.yaml
+   87  cd scripts
+   88  ls -ltr
+   89  view fetch_version.sh
+   90  hadolint --version
+   91  curl https://github.com/hadolint/hadolint/releases/download/v2.6.0/hadolint-Linux-x86_64
+   92  ls -ltr
+   93  cd ..
+   94  pwd
+   95  ls -ltr
+   96  curl https://github.com/hadolint/hadolint/releases/download/v2.6.0/hadolint-Linux-x86_64 --output hadolint
+   97  ls -ltr
+   98  hadolint
+   99  cat hadolint
+  100  clear
+  101  pwd
+  102  cd ..
+  103  curl -L https://github.com/hadolint/hadolint/releases/download/v2.6.0/hadolint-Linux-x86_64 -o hadolint
+  104  ls -ltr
+  105  date
+  106  sudo curl -L https://github.com/hadolint/hadolint/releases/download/v2.6.0/hadolint-Linux-x86_64 -o hadolint
+  107  rm -rf hadolint
+  108  sudo curl -L https://github.com/hadolint/hadolint/releases/download/v2.6.0/hadolint-Linux-x86_64 -o hadolint
+  109  ls -ltr
+  110  hadolint
+  111  pwd
+  112  path
+  113  echo $PATH
+  114  ls -ltr
+  115  sudo cp hadolint /home/ubuntu/venv/bin
+  116  hadolint
+  117  cd /home/ubuntu/venv/bin/
+  118  ls -ltr
+  119  sudo chmod 777 hadolint
+  120  hadolint
+  121  cd ~
+  122  cd myrepo
+  123  ls -ltr
+  124  make all
+  125  view Makefile
+  126  sudo make lint
+  127  which hadolint
+  128  cat Makefile
+  129  hadolint demos/flask-sklearn/Dockerfile
+  130  ls -ltr
+  131  hadolint Dockerfile
+  132  vi Makefile
+  133  make lint
+  134  pip install --no-cache-dir
+  135  cat Dockerfole
+  136  cat Dockerfile
+  137  vi Dockerfile
+  138  make lint
+  139  vi Dockerfile
+  140  vi Makefile
+  141  make lint
+  142  curl -fLSs https://circle.ci/cli | bash
+  143  sudo curl -fLSs https://circle.ci/cli | bash
+  144  curl -L https://circle.ci/cli -o circleci
+  145  ls -ltr
+  146  vi circleci
+  147  echo hadolint
+  148  which hadolint
+  149  vi circleci
+  150  sh -x circleci
+  151  sudo curl -fLSs https://circle.ci/cli | bash
+  152  cd /usr/local/
+  153  ls -ltr 
+  154  chmod 777 bin
+  155  sudo chmod 777 bin
+  156  sudo curl -fLSs https://circle.ci/cli | bash
+  157  pwd
+  158  cd ~
+  159  cd myrepo
+  160  vi Makefile
+  161  make validate-circleci
+  162  make run-circleci-local
+  163  docker
+  164  sudo systemctl status docker
+  165  make run-circleci-local
+  166  docker version
+  167  sudo docker version
+  168  sudo make run-circleci-local
+  169  vi Makefile
+  170  sudo make run-circleci-local
+  171  ls -ltr
+  172  vi Dockerfile
+  173  cd ..
+  174  ls -ltr
+  175  cd FROM python:3.7.3-stretch
+  176  # Working Directory
+  177  WORKDIR /app
+  178  # Copy source code to working directory
+  179  COPY . app.py /app/
+  180  # Install packages from requirements.txt
+  181  # hadolint ignore=DL3013
+  182  RUN pip install --upgrade pip &&\
+  183  clear
+  184  ls -ltr
+  185  cd DevOps_Microservices
+  186  ls -ltr
+  187  cd Lesson-2-Docker-format-containers
+  188  ls -ltr
+  189  cd class-demos
+  190  cd demos
+  191  ls -ltr
+  192  cd flask-sklearn-student-starter
+  193  ls -ltr
+  194  cat Makefile
+  195  export hadolint=/home/ubuntu/venv/bin/hadolint
+  196  make lint
+  197  ls -ltr
+  198  cat Dockerfile
+  199  mv Dockerfile Dockerfile_old
+  200  vi Dockerfile
+  201  ls -ltr
+  202  vi run_docker.sh
+  203  ./run_docker.sh
+  204  sudo sh -x run_docker.sh
+  205  docker login --help
+  206  docker login -i
+  207  docker login -u tarungirdhar1980
+  208  sudo docker login -u tarungirdhar1980
+  209  sudo sh -x run_docker.sh
+  210  docker ls
+  211  docker ps -a
+  212  sudo docker ps -a
+  213  sudo docker images
+  214  clear
+  215  ls -ltr
+  216  docker build --tag=app .
+  217  sudo docker build --tag=app .
+  218  vi Dockerfile
+  219  sudo docker build --tag=app .
+  220  vi Dockerfile
+  221  sudo docker build --tag=app .
+  222  vi Dockerfile
+  223  sudo sh -x run_docker.sh
+  224  docker ps
+  225  sudo docker ps
+  226  curl localhost
+  227  curl localhost:8080
+  228  clear
+  229  ls -ltr
+  230  sudo sh -x make_prediction.sh
+  231  vi make_prediction.sh
+  232  sudo sh -x make_prediction.sh
+  233  ls -ltr
+  234  vi upload_docker.sh
+  235  sudo sh -x upload_docker.sh
+  236  pwd
+  237  cd ..
+  238  ls -ltr
+  239  cd #!/usr/bin/env bash
+  240  # This file tags and uploads an image to Docker Hub
+  241  # Assumes that an image is built via `run_docker.sh`
+  242  # Step 1: Create dockerpath
+  243  dockerpath="visheshvashista/udacitymicroservicesproject8"
+  244  # Step 2: Authenticate & tag
+  245  echo "Docker ID and Image: $dockerpath"
+  246  docker login --username visheshvashista
+  247  # Step 3: Push image to a docker repository
+  248  pwd
+  249  cd DevOps_Microservices
+  250  ls -ltr
+  251  cd Lesson-3-Containerization/
+  252  ls -ltr
+  253  cat Makefile
+  254  :q!
+  255  sudo apt-get update -y
+  256  sudo apt-get upgrade -y
+  257  sudo apt-get install curl
+  258  sudo apt-get install apt-transport-https
+  259  sudo apt install virtualbox virtualbox-ext-pack
+  260  ls -ltr
+  261  clear
+  262  wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  263  sudo cp minikube-linux-amd64 /usr/local/bin/minikube
+  264  sudo chmod 755 /usr/local/bin/minikube
+  265  minikube version
+  266  curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+  267  chmod +x ./kubectl
+  268  sudo mv ./kubectl /usr/local/bin/kubectl
+  269  kubectl version -o json
+  270  sudo kubectl version -o json
+  271  minikube start
+  272  history -200
+  273  clear
+  274  history 1000
+  275  history 2000 >abc
